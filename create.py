@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 from models import create_tables, Publisher, Shop, Book, Stock, Sale
 
 
-DSN = "postgresql://postgres:41321122@localhost:5432/123"
+DSN = "postgresql://postgres:xxxxxx@localhost:5432/123"
 engine = sqlalchemy.create_engine(DSN)
 create_tables(engine)
 
