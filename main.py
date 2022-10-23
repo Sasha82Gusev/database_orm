@@ -5,7 +5,7 @@ from models import Publisher, Book, Shop, Stock, Sale
 
 Base = declarative_base()
 
-DSN = "postgresql://postgres:41321122@localhost:5432/123"
+DSN = "postgresql://postgres:xxxxxxxx@localhost:5432/123"
 engine = sqlalchemy.create_engine(DSN)
 
 Session = sessionmaker(bind=engine)
